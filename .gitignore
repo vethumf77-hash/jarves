@@ -1,0 +1,10 @@
+.env
+settings.json
+venv/
+__pycache__/
+*.log
+hand_landmarker.task
+build/
+dist/
+release/
+redist/

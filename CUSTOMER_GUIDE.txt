@@ -1,0 +1,39 @@
+JARVIS - VOICE ASSISTANT FOR YOUR WINDOWS PC
+=============================================
+
+START
+  Open "Jarvis" from the Start menu or your Desktop.
+  Wait until the globe turns blue (a few seconds), then:
+    - say "Hey Jarvis", wait for "Yes?", and speak your command, or
+    - press the Talk button, or
+    - type a command in the box and press Enter.
+
+EXAMPLES
+  "open notepad"          "close spotify"          "take a screenshot"
+  "set the volume to 30"  "mute"                    "set brightness to 60"
+  "lock my PC"            "find my resume"          "search for weather in London"
+  "start hand mouse"      (control the cursor with your hand in front of the webcam)
+
+YOUR API KEY
+  Jarvis uses the Groq API key you entered during setup.
+  To change it later: open Jarvis > Settings > click Paste (or right-click > Paste) > Save.
+  Free keys: https://console.groq.com/keys
+
+TIPS
+  - The "Mini" button shrinks Jarvis to a small floating globe in the corner.
+  - Closing the window quits Jarvis.
+  - Shut down / restart commands wait 30 seconds - say "cancel shutdown" to stop them.
+  - Hand mouse needs a webcam; the hotkey Ctrl+Alt+H switches it on/off.
+
+IF SOMETHING GOES WRONG
+  - Jarvis can't hear you? Open Windows Settings > Privacy & security > Microphone and make sure
+    "Let desktop apps access your microphone" is ON, and that the right microphone is the default.
+    (Hand mouse needs the same permission under Camera.)
+  - Make sure you have an internet connection and your microphone is the Windows default.
+  - If it says your API key was rejected, open Settings and paste a fresh key.
+  - Logs are in:  %LOCALAPPDATA%\Jarvis\jarvis.log  (paste that path into File Explorer).
+
+PRIVACY
+  Nothing is sent anywhere until you say the wake word or press Talk. Only your spoken
+  command is sent to Groq, using your own key. Your key is stored only on this PC.
+  Uninstalling Jarvis (Settings > Apps) also deletes the saved key.

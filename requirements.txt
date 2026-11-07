@@ -1,0 +1,16 @@
+groq
+openwakeword
+PyAudioWPatch
+numpy
+pyttsx3
+pyautogui
+pillow
+pycaw
+comtypes
+psutil
+python-dotenv
+mediapipe
+keyboard
+screen-brightness-control
+# mediapipe pulls in opencv-contrib-python on its own — don't also list opencv-python
+# here, the two conflict when installed together (see README troubleshooting).
